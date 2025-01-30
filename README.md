@@ -2,15 +2,15 @@ Updates to the original self-RAG
 - transform_query:
     - Multiple queries instead of one query
     - Generate queries based on context (useful docs)
-        - Important for allowing HKG->BKK to be answered
+        - Important
     - Add hypothesis as a consideration for new queries, so that generic insights can be generated from documents that might not be immediately useful for the current question (e.g. draw inference about configuration vs crew seats based on doc for other airplane type)
-        - Important for allowing B-LBI crew seats to be answered
+        - Important
     - Generic prompt engineering
 - grade_documents:
     - Append useful docs, instead of overwrite
     - Retain history of graded documents, to skip evaluating those graded before among the newly retrieved docs
     - Relax the grading by taking vs_queries into account, beyond just the immediate question
-        - Important for allowing B-LBI crew seats to be answered 
+        - Important
 - retrieve:
     - Given multiple queries are issued to retrieve docs, apply deduplication in response
     - Allow the use of semantic_hybrid as search_type by removing `@search.captions` from response
@@ -23,3 +23,8 @@ To-do
     - useful
     - not repeated
 - distill useful info from docs
+
+Some modifications to the original
+- OpenRouter
+- Function Calling to get the output in required form
+- Adding memory to graph

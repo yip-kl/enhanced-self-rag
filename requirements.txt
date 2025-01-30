@@ -4,5 +4,11 @@ langgraph
 python-dotenv
 langchain-community
 langchain-openai
+langchain-huggingface
 azure-search-documents
 azure-identity
+tiktoken
+chromadb
+beautifulsoup4
+sentence-transformers
+ipywidgets
