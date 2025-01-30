@@ -1,0 +1,8 @@
+ipykernel
+langchain
+langgraph
+python-dotenv
+langchain-community
+langchain-openai
+azure-search-documents
+azure-identity
