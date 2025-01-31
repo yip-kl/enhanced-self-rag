@@ -12,3 +12,4 @@ chromadb
 beautifulsoup4
 sentence-transformers
 ipywidgets
+langchain-chroma

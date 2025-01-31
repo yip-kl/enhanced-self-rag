@@ -171,3 +171,4 @@ cython_debug/
 .pypirc
 
 .env
+langgraph_self_rag_original.ipynb
